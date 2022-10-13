@@ -8,7 +8,7 @@ import "openzeppelin-solidity/contracts/access/Ownable.sol";
 import "openzeppelin-solidity/contracts/utils/Counters.sol";
 
 contract Alchemy is ERC721, ERC721Enumerable, ERC721URIStorage, Ownable {
-    uint256 MAX_SUPPLY = 100000;
+    uint256 MAX_SUPPLY = 10;
 
     constructor() ERC721("Alchemy", "ALC") {}
 
